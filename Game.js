@@ -149,8 +149,8 @@ class Game {
 
     console.log("GAME OVER!");
     console.log(player.rank);
-
-    
+   //adding a temp variable 
+    if(rank){
     swal({
       title: "Show Two Buttons Inside the Alert",
       showCancelButton: true,
@@ -159,15 +159,9 @@ class Game {
       cancelButtonColor: "#ff0099"
     })
 
-
+    }
+    rank=0;
     
-    
-
-
-
-
-
-
-  }
+ }
 
 }
