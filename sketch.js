@@ -18,6 +18,8 @@ var trackimg;
 
 var bgimg;
 
+var rank=1;
+
 
 
 function preload() {
